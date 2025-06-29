@@ -3,3 +3,7 @@ backend/google-credentials.json
 
 # Pastas de dependências do Node.js
 backend/node_modules/
+
+# Ignorar a pasta extra que foi criada
+folhas-no-backend/
+    
