@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Atendimento</title>
+    <!-- Link para o arquivo CSS de estilização -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Atendimento</h1>
+
+        <!-- Formulário para coletar os dados -->
+        <form id="cadastroForm">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="Nome" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" name="Endereco" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="plano">Plano de Saúde:</label>
+                <input type="text" id="plano" name="Plano" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="carteirinha">Dados da Carteirinha do Plano:</label>
+                <input type="text" id="carteirinha" name="Carteirinha" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="Telefone" required>
+            </div>
+            
+            <button type="submit">Enviar Cadastro</button>
+        </form>
+
+        <h2>Dados Cadastrados</h2>
+        <!-- Lista onde os dados da planilha serão exibidos -->
+        <ul id="dataList">
+            <!-- Os itens serão inseridos aqui via JavaScript -->
+        </ul>
+    </div>
+
+    <!-- Link para o arquivo JavaScript, deve ser no final do body para carregar o DOM primeiro -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+# Arquivos de credenciais do Google, NUNCA devem ser enviados para o GitHub!
+backend/google-credentials.json
+
+# Pastas de dependências do Node.js
+backend/node_modules/
