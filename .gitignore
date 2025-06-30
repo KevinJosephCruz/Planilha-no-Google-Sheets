@@ -5,6 +5,7 @@ backend/google-credentials.json
 backend/node_modules/
 
 # Ignorar a pasta extra que foi criada
-folhas-no-backend/
+folhas-nó-backend/
 
+# Ignorar a pasta sheets
 sheets-node-backend/
