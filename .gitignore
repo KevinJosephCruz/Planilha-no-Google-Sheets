@@ -6,4 +6,5 @@ backend/node_modules/
 
 # Ignorar a pasta extra que foi criada
 folhas-no-backend/
-    
+
+sheets-node-backend/
